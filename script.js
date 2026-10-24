@@ -1,4 +1,9 @@
 function calculate(operator) {
+    function clearCalculator() {
+    document.getElementById("num1").value = "";
+    document.getElementById("num2").value = "";
+    document.getElementById("result").textContent = "Result: ";
+}
     const a = document.getElementById("num1").value;
     const b = document.getElementById("num2").value;
     const result = document.getElementById("result");
